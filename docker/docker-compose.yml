@@ -1,0 +1,10 @@
+version: "4.5"
+services:
+  jenkinstest:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: jenkinstest:v1.0.0
+    container_name: jenkinstest
+    ports:
+      - 8080:8080
