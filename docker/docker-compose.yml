@@ -4,7 +4,7 @@ services:
     build:
       context: ./
       dockerfile: Dockerfile
-    image: jenkinstest:v1.0.0
+    image: jenkinstest:v2.0.0
     container_name: jenkinstest
     ports:
       - 8081:8080
